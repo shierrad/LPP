@@ -3,6 +3,7 @@ import { THREE, OrbitControls, GLTFLoader, EXRLoader, EffectComposer,
 
 import {sceneScript, sceneParams, info, adds, globals} from "./Modules/sceneProperties.js";
 
+
 let exrCubeRenderTarget;
 let exrBackground;
 let container;
@@ -27,7 +28,7 @@ let mouseOpacity = 0.0;
 let materialShader;
 let EXRInterval;
 
-//EL PAPS
+//EL PAPS sd
 console.clear();
 
 const manager = new THREE.LoadingManager();
