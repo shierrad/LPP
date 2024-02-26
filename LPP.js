@@ -28,7 +28,7 @@ let mouseOpacity = 0.0;
 let materialShader;
 let EXRInterval;
 
-//EL PAPS sd jh
+//EL PAPS sd j
 console.clear();
 
 const manager = new THREE.LoadingManager();
