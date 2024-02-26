@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" />
+<title> LPP </title>
+<link rel="stylesheet" href="LPP.css">
+<script type="importmap">
+  {
+    "imports": {
+      "three": "./Modules/Lib/build/three.module.min.js",
+      "addons/": "./Modules/Lib/examples/jsm/"
+    }
+}
+</script>
+</head>
+<body>
+  <img id="intro" src="./Assets/Img/intro.png" alt="Intro Image">
+  <div id="loadingTextbox"> Cargando </div>
+  <div id="thanksTextbox"> ¡Gracias por jugar! </div>
+  <button id="startButton"> Iniciar </button>
+  <img id="overlay-mouse" src="./Assets/Img/mouse.png" alt="Overlay Image">
+  <img id="overlay-R" src="./Assets/Img/rButton.png" alt="Overlay Image">
+  <img id="overlay-L" src="./Assets/Img/lButton.png" alt="Overlay Image">
+  <script  type="module" src="LPP.js"> </script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+#overlay-mouse {
+    position: absolute;
+    top: 90%;
+    left: 48%;
+    width: 3%;
+    height: auto;
+    z-index: 1; /* Ensure the overlay is above the canvas */
+    opacity: 0.0;
+    pointer-events: none;
+    user-select: none;
+}
+
+#overlay-R {
+    position: absolute;
+    top: 90%;
+    left: 48%;
+    width: 3%;
+    height: auto;
+    z-index: 1; /* Ensure the overlay is above the canvas */
+    opacity: 0.0;
+    pointer-events: none;
+    user-select: none;
+}
+
+#overlay-L {
+    position: absolute;
+    top: 90%;
+    left: 48%;
+    width: 3%;
+    height: auto;
+    z-index: 1; /* Ensure the overlay is above the canvas */
+    opacity: 0.0;
+    pointer-events: none;
+    user-select: none;
+}
+
+#intro {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    width: 94%;
+    height: 80%;
+}
+
+#loadingTextbox {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    width: 10%;
+    height: 5%;
+    padding: 0.5%; 
+    font-family: Geneva, sans-serif;
+    font-size: 2vw;
+    line-height: 1.5;
+    text-align: center;
+    animation: oscillateOpacity 0.7s infinite alternate;
+    user-select: none;
+}
+
+@keyframes oscillateOpacity {
+    0% {
+        opacity: 0; /* Start with opacity 0 */
+    }
+    100% {
+        opacity: 1; /* End with opacity 1 */
+    }
+}
+
+#thanksTextbox {
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    width: 20%;
+    height: 5%;
+    padding: 0.5%; 
+    color : #f7de7a;
+    font-family: Geneva, sans-serif;
+    font-size: 2vw;
+    line-height: 1.5;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    opacity: 0.0;
+    user-select: none;
+}
+
+#startButton {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    width: 11%;
+    height: 6%;
+    font-size: 2vw;
+    font-family: Geneva, sans-serif;
+    opacity: 0.0;
+}
