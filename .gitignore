@@ -1,0 +1,6 @@
+#exclude everything besides the main files, ignore assets
+
+Assets/
+Modules/Lib/
+.DS_Store
+.vscode/
